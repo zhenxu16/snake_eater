@@ -11,8 +11,25 @@ This is my first game project, created as a class assignment to present to my in
 - Python
 - Tkinter (for GUI)
 
-## Installation & Usage
+## Installation
 1. Make sure Python is installed on your system.
-2. Install the required dependency
+2. If tkinter is not available on your system, here’s how you can install it depending on your operating system.
+### For some example
+##### Linux (Debian/Ubuntu)
 ```bash
-pip install tk
+sudo apt-get install python3-tk
+```
+##### Linux (Fedora)
+```bash
+sudo dnf install python3-tkinter
+```
+##### Linux (Arch Linux / Manjaro)
+```bash
+sudo pacman -S tk
+```
+After installation, try running
+```bash
+import tkinter
+tkinter._test()
+```
+If a small window appears, tkinter is working properly.
